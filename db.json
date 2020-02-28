@@ -1,1 +1,28 @@
-gffg
+{
+  "posts": [
+    {
+      "title": "CERTFR-2020-ALE-001: Multiples vulnérabilités dans les produits de Pulse Secure (09 janvier 2020)",
+      "body": "RÉSUMÉ: Le 24 avril 2019, l'éditeur Pulse Secure a émis un avis de sécurité pour les produits Pulse Connect Secure et Pulse Policy Secure. Le CERT-FR a ensuite publié un bulletin d'actualité portant sur plusieurs produits, dont les produits Pulse Secure (cf. section Documentation). Le CERT-FR a connaissance de cas d'exploitation des vulnérabilités affectant les produits Pulse Secure n'ayant pas appliqué ces mises à jour de sécurité. Le CERT-FR recommande donc fortement l'application du correctif mis à disposition le 24 avril 2019, et ce, dans les plus brefs délais."
+    },
+    {
+      "title": "CERTFR-2020-ALE-002: Vulnérabilité dans les produits Citrix ADC et Citrix Gateway",
+      "body": "RÉSUMÉ: Le 22 janvier 2020, Citrix a fourni, en collaboration avec FireEye, un outil qui tente de rechercher des possibles exploitations de la vulnérabilité CVE-2019-19781. Contrairement à l'outil fourni le 17 janvier qui permet de rechercher des machines vulnérables sur le réseau, il doit être lancé en local. FireEye indique que l'outil doit être lancé avec les privilèges administrateur et ne garantit pas de repérer toutes les compromissions. L'outil est présenté sur le site de FireEye et est disponible sur GitHub."
+    },
+    {
+      "title": "CERTFR-2020-ALE-003: Vulnérabilité dans les produits Mozilla",
+      "body": "RÉSUMÉ: Le 08 janvier 2020, Mozilla a publié un avis de sécurité (cf. section Documentation) annonçant que la vulnérabilité CVE-2019-17026 est activement exploitée dans le cadre d'attaques ciblées. Cette vulnérabilité permet une exécution de code arbitraire à distance. Le correctif étant disponible, le CERT-FR recommande l'application de la mise à jour dans les plus brefs délais."
+    },
+     {
+      "title": "CERTFR-2020-ALE-004: Vulnérabilité dans Microsoft Windows",
+      "body": "RÉSUMÉ: Une vulnérabilité affecte la bibliothèque cryptographique CryptoAPI (CAPI, crypt32.dll) de Microsoft Windows 10, Windows Server 2016 et Windows Server 2019.Le CERT-FR insiste sur l'urgence d'appliquer la mise à jour mensuelle dans les plus brefs délais. Ce correctif n'a aucun impact sur le fonctionnement du système d'exploitation et des applications, il vise uniquement à ajouter les contrôles de sécurité manquants dans la bibliothèque."
+    },
+     {
+      "title": "CERTFR-2020-ALE-005: Multiples vulnérabilités dans le serveur de passerelle RDP de Windows",
+      "body": "RÉSUMÉ: Depuis Microsoft Windows Server 2012, la passerelle d'accès distant Microsoft Remote Desktop Gateway (RD Gateway) intègre par défaut de nouvelles fonctionnalités dénommées RemoteFX améliorant la prise en charge de certains contenus multimédias et également l'optimisation du trafic réseau sur des liaisons de faible capacité. Dénommée RemoteFX for WAN, cette optimisation réseau permet de mettre en oeuvre le protocole RDP sur UDP avec chiffrement DTLS. Qu'elle soit exposée sur Internet ou bien située sur une interconnexion du système d'information, une telle passerelle est de par sa fonction exposée. Elle constitue un élément critique de l'architecture d'un réseau et toute vulnérabilité doit donc être corrigée dans les plus brefs délais."
+    }, 
+     {
+      "title": "CERTFR-2020-ALE-006: Vulnérabilité dans Microsoft Internet Explorer",
+      "body": "RÉSUMÉ: Le 17 janvier 2020, Microsoft a annoncé qu'Internet Explorer est affecté par une vulnérabilité de type 0 jour qui permet à un attaquant d'exécuter du code arbitraire à distance avec les privilèges de l'utilisateur actuel. Cette vulnérabilité, portant l'identifiant CVE-2020-0674, se situe dans la bibliothèque, intitulée JScript.dll. Cette bibliothèque permet la compatibilité avec une version obsolète de JScript."
+    }    
+  ]
+}
